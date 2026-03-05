@@ -5,10 +5,15 @@
     margin: 0px;
 }
 
+body {
+    background-image: linear-gradient(to bottom, rgb(92, 92, 92), rgba(95, 95, 95, 0.541));
+}
+
 header {
     text-align: center;
     padding: 20px;
     background-color: rgb(53, 53, 53);
+    border-radius: 0px 0px 5px 5px;
 }
 
 header > h1 {
@@ -29,8 +34,11 @@ header > nav {
     text-align: right;
 }
 
-nav > a {
+a {
     text-decoration: none;
+}
+
+nav > a {
     font-weight: bold;
     color: #e07e3c;
     margin-left: 20px;
@@ -39,26 +47,72 @@ nav > a {
 main {
     display: flexbox;
     text-align: center;
-    
 }
 
 main  img {
     width: 200px;
-    margin: 20px 10px;
-    padding: 30px 40px 0px 40px;
+    margin: 0px 20px 10px 20px;
+    padding: 30px 10px 0px 10px;
 }
 
 div {
+    background-color: rgba(255, 255, 255, 0.877);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
     display: inline-table;
-    word-break: break-all;
+    word-break: break-all; /* Quebra qualquer palavra para caber na largura. */
     width: 200px;
 }
 
 div > p {
     width: 200px;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+
+    letter-spacing: 1px; /* Adiciona 2px entre as letras */
     font-size: 1.2em;
     font-family: sans-serif;
     text-align: justify;
+}
+
+#social {
+    width: 30%;
+}
+
+footer {
+    padding: 10px 0px  50px 0px;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+footer > p {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #e07e3c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ul p {
+    text-decoration: underline;
+    padding-top: 10px;
+    color: #e07e3c;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    text-align: justify;
+    margin: 10px 0px 10px 20px;
 }
