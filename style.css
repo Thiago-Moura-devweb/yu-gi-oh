@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(53, 53, 53);
+}
+
+header > h1 {
+    /* Define o gradiente */
+    font-size: 48px;
+    font-weight: bold;
+    background-image: linear-gradient(to top, rgb(214, 16, 16),rgb(192, 118, 28), rgb(197, 196, 196), white);
+
+    /* Faz o background aparecer apenas no texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Torna a cor da fonte transparente */
+    -webkit-text-fill-color: transparent;
+}
+
+header > nav {
+    text-align: right;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e07e3c;
+    margin-left: 20px;
+}
+
+main {
+    display: flexbox;
+    text-align: center;
+    
+}
+
+main  img {
+    width: 200px;
+    margin: 20px 10px;
+    padding: 30px 40px 0px 40px;
+}
+
+div {
+    display: inline-table;
+    word-break: break-all;
+    width: 200px;
+}
+
+div > p {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
