@@ -9,6 +9,55 @@
     margin: 0px;
 }
 
+/*
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+background-image: linear-gradient(to bottom, rgb(92, 92, 92), rgba(95, 95, 95, 0.541)); BODY
+HEADER
+background-color: rgb(53, 53, 53); 
+
+H1 do HEARDER
+background-image: linear-gradient(to top, rgb(214, 16, 16),rgb(192, 118, 28), rgb(197, 196, 196), white);
+
+footer
+background-color: rgb(53, 53, 53);
+
+link do footer
+font-family: 'Courier New', Courier, monospace;
+
+lista
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+Fonte do Paragrafo
+font-family: "Rubik", sans-serif;
+
+Fonte do H1
+font-family: "Cinzel", serif;
+
+Font-Family usadas
+font-family: "Rubik", sans-serif;
+font-family: "Cinzel", serif;
+font-family: 'Courier New', Courier, monospace;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+Cores usadas
+#e07e3c;
+#A34111;
+background-color: rgb(53, 53, 53);
+
+Hover : cor do link do header
+#fc6603;
+*/
+
 body {
     background-image: linear-gradient(to bottom, rgb(92, 92, 92), rgba(95, 95, 95, 0.541));
 }
