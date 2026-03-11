@@ -129,32 +129,41 @@ p {
     margin: auto;
 }
 
+.cartas img {
+    margin: 15px;
+    width: 200px;
+}
+
 #cartas > h1 {
+    background-color: #A34111;
+    color: white;
     font-family: "Cinzel", serif;
     font-size: 2.5em;
     font-weight: bold;
-    padding: 20px;
+    margin: 20px 0px;
+    padding: 15px;
 }
 
-#fotos-personagens {
-    display: flex-box;
-    width: 80%;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-    margin-top: 20px;
-    padding: 20px 90px;
+#personagem {
+    display: inline;
+    border: none;
+    margin: 30px 0px;
 }
 
-#fotos-personagens > h1 {
+#personagem > h1 {
+    background-color: #A34111;
+    color: white;
+    font-family: "Cinzel", serif;
     font-size: 2.5em;
     font-weight: bold;
     font-family: "Cinzel", serif;
-    padding-bottom: 20px;
+    margin: 20px 0px;
+    padding: 15px;
 }
 
 .personagens {
     margin: auto;
-    margin: 20px;
+    margin: 15px;
     width: 200px;
     background-color: #808080a1;
 }
@@ -204,6 +213,14 @@ aside {
     margin: auto;
     padding: 25px 0px;
     columns: 3;
+    column-gap: 0px;
+}
+
+.curiosidades li {
+    margin: 0px 20px 20px 20px;
+    letter-spacing: 1px;
+    word-break: break-all; /* Quebra qualquer palavra para caber na largura. */
+    list-style: none;
 }
 
 .curiosidades a {
@@ -225,10 +242,6 @@ aside h3 {
     color: white;
     font-family: "Cinzel", serif;
     font-size: 1.5em;
-}
-
-#social {
-    width: 30%;
 }
 
 footer {
@@ -254,6 +267,10 @@ footer a {
 footer a:hover {
     color: #A34111;
     font-weight: bold;
+}
+
+#social {
+   width: 400px;
 }
 
 ul {
